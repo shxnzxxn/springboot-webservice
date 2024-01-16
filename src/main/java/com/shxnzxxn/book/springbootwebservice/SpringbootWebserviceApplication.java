@@ -8,7 +8,6 @@ public class SpringbootWebserviceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootWebserviceApplication.class, args);
-		System.out.println("hwllo");
 
 	}
 
