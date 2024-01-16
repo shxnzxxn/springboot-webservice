@@ -1,12 +1,9 @@
-package com.shxnzxxn.book.springbootwebservice.controller;
+package com.shxnzxxn.book.springbootwebservice.web.dto;
 
-import org.assertj.core.api.Assertions;
+import com.shxnzxxn.book.springbootwebservice.web.dto.HelloResponseDto;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.assertj.core.api.Assertions.*;
-import static org.junit.Assert.*;
 
 public class HelloResponseDtoTest {
     

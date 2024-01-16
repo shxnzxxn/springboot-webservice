@@ -1,5 +1,6 @@
-package com.shxnzxxn.book.springbootwebservice.controller;
+package com.shxnzxxn.book.springbootwebservice.web;
 
+import com.shxnzxxn.book.springbootwebservice.web.dto.HelloResponseDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

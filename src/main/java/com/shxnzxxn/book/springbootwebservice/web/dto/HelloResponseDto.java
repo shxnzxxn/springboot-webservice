@@ -1,4 +1,4 @@
-package com.shxnzxxn.book.springbootwebservice.controller;
+package com.shxnzxxn.book.springbootwebservice.web.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

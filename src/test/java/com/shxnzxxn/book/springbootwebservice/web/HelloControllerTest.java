@@ -1,4 +1,4 @@
-package com.shxnzxxn.book.springbootwebservice.controller;
+package com.shxnzxxn.book.springbootwebservice.web;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
