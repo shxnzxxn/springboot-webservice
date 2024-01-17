@@ -4,21 +4,23 @@ spring:
     properties:
       hibernate:
         show_sql: true
-#        dialect: org.hibernate.dialect.MySQL8Dialect
         dialect: org.hibernate.dialect.H2Dialect
-  datasource:
-    driver-class-name: org.h2.Driver  # Database를 H2로 사용하겠다.
-    url: jdbc:h2:mem:testdb
   h2:
     console:
       enabled: true
-  profiles:
-    include: oauth
   session:
     store-type: jdbc
-
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: test
+            client-secret: test
+            scope:
+              - email
+              - profile
 server:
   servlet:
     encoding:
       force: true
-
