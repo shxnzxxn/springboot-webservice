@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.shxnzxxn.book.springboot-webservice' is invalid and this project uses 'com.shxnzxxn.book.springbootwebservice' instead.
+* The original package name 'com.shxnzxxn.book.springboot-webservice' is invalid and this project uses 'com.shxnzxxn.book.springboot' instead.
 
 # Getting Started
 
